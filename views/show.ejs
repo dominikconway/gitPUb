@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8" />
@@ -7,4 +7,28 @@
   <body>
     <h1>Drinks show page</h1>
   </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drinks Index Page</title>
+</head>
+<body>
+    <h1>At foo bar</h1> 
+    <h2><%=`${drink.name}` %></h2>
+    <img src="<%=(drink.image).slice(0,-3) +"png"%>">
+    <h3><%=`$${drink.price}`%></h3>
+    <a href="/drinks">Back it Up</a>
+    <style type="text/css">
+        body {
+            color: blanchedalmond;
+            background-color: steelblue;
+        }
+    </style>
+    
+</body>
 </html>
