@@ -17,7 +17,7 @@
     <ul>
         <% for (let drink in allDrinks) { %>
         <li>
-           <%=allDrinks[drink].name %>
+           <%=`${allDrinks[drink].name.charAt(0).toUpperCase()}`%><%=`${allDrinks[drink].name.slice(1)}`%> 
         </li>
         
         <% } %>
