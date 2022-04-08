@@ -14,6 +14,13 @@
             background-color: steelblue;
         }
     </style>
-    
+    <ul>
+        <% for (let drink in allDrinks) { %>
+        <li>
+           <%=allDrinks[drink].name %>
+        </li>
+        
+        <% } %>
+    </ul>
 </body>
 </html>
